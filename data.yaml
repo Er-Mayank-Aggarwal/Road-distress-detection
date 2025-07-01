@@ -1,0 +1,15 @@
+train: ./images  # path to your training images
+val: ./images    # or another folder if you have separate validation set
+
+nc: 9
+names: [
+  'Low_Cracking',
+  'Medium_Cracking',
+  'High_Cracking',
+  'minor_pothole',
+  'moderate_pothole',
+  'major_pothole',
+  'Minor_Edge_Break',
+  'Modrate_Edge_Break',
+  'Major_Edge_Break'
+]
